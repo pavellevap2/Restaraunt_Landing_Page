@@ -1,0 +1,33 @@
+@import "header";
+@font-face {
+  font-family:"WC Mano Negra Bta" ;
+  src: url("../fonts/4399.ttf");
+
+}
+.main_block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 770px;
+  background: url("../images/2-layers.png")center center no-repeat fixed ;
+  background-size: cover;
+  background-color: #3f3f3f;
+  background-blend-mode: multiply;
+  border-bottom: 3px solid red;
+    .main_block__text-block{
+      z-index: 2;
+      .main_block__text-block__title{
+        @include text-prop(#ffffff,WC Mano Negra Bta,110px,400,-9px);
+      }
+      .main_block__text-block__text{
+        @include text-prop(#ffffff,Aleo,16px,400,0.64px);
+        text-align: center;
+        margin-top: -9%;
+          .main_block__text-block__img-line>img{
+              padding: 0 9px 4px 9px;
+              margin: 0 27px 0.20% 27px;
+          }
+      }
+    }
+}

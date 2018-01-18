@@ -1,4 +1,158 @@
-.test {
-  color: red; }
+@charset "UTF-8";
+.header {
+  background-color: white;
+  display: flex; }
+  .header .header__logo {
+    margin-left: 14.16667%;
+    padding: 55px 0 49px 0px; }
+  .header .header_nav {
+    display: inline-flex;
+    margin-left: 22.75%; }
+    .header .header_nav .header__nav__items {
+      white-space: nowrap; }
+      .header .header_nav .header__nav__items:not(:last-child) {
+        padding: 49px; }
+      .header .header_nav .header__nav__items:last-child {
+        padding: 49px 49px 49px 0; }
+      .header .header_nav .header__nav__items .header_nav__items__links {
+        color: #3b3b3b;
+        font-family: Aleo;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.98px; }
+
+.header {
+  background-color: white;
+  display: flex; }
+  .header .header__logo {
+    margin-left: 14.16667%;
+    padding: 55px 0 49px 0px; }
+  .header .header_nav {
+    display: inline-flex;
+    margin-left: 22.75%; }
+    .header .header_nav .header__nav__items {
+      white-space: nowrap; }
+      .header .header_nav .header__nav__items:not(:last-child) {
+        padding: 49px; }
+      .header .header_nav .header__nav__items:last-child {
+        padding: 49px 49px 49px 0; }
+      .header .header_nav .header__nav__items .header_nav__items__links {
+        color: #3b3b3b;
+        font-family: Aleo;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.98px; }
+
+@font-face {
+  font-family: "WC Mano Negra Bta";
+  src: url("../fonts/4399.ttf"); }
+.main_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 770px;
+  background: url("../images/2-layers.png") center center no-repeat fixed;
+  background-size: cover;
+  background-color: #3f3f3f;
+  background-blend-mode: multiply;
+  border-bottom: 3px solid red; }
+  .main_block .main_block__text-block {
+    z-index: 2; }
+    .main_block .main_block__text-block .main_block__text-block__title {
+      color: #ffffff;
+      font-family: WC Mano Negra Bta;
+      font-size: 110px;
+      font-weight: 400;
+      letter-spacing: -9px; }
+    .main_block .main_block__text-block .main_block__text-block__text {
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.64px;
+      text-align: center;
+      margin-top: -9%; }
+      .main_block .main_block__text-block .main_block__text-block__text .main_block__text-block__img-line > img {
+        padding: 0 9px 4px 9px;
+        margin: 0 27px 0.20% 27px; }
+
+.header {
+  background-color: white;
+  display: flex; }
+  .header .header__logo {
+    margin-left: 14.16667%;
+    padding: 55px 0 49px 0px; }
+  .header .header_nav {
+    display: inline-flex;
+    margin-left: 22.75%; }
+    .header .header_nav .header__nav__items {
+      white-space: nowrap; }
+      .header .header_nav .header__nav__items:not(:last-child) {
+        padding: 49px; }
+      .header .header_nav .header__nav__items:last-child {
+        padding: 49px 49px 49px 0; }
+      .header .header_nav .header__nav__items .header_nav__items__links {
+        color: #3b3b3b;
+        font-family: Aleo;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.98px; }
+
+.menu .menu__b-title {
+  display: flex;
+  justify-content: center; }
+  .menu .menu__b-title .menu__b-title__title {
+    margin-top: -14px;
+    padding: 25px;
+    background: url("../images/shape-figure.png") center center no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 60px; }
+.menu .menu__b-flex {
+  display: flex;
+  flex-direction: row;
+  /*Пункты внутри контейнера будут располагаться горизонтально*/
+  align-items: stretch;
+  /*Пункты внутри контейнер будут принимать всю его высоту*/
+  justify-content: center; }
+  .menu .menu__b-flex .menu__b-flex__b-left {
+    margin-right: 14.16667%; }
+  .menu .menu__b-flex .menu__b-flex__b-right {
+    margin-left: 14.16667%; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.header {
+  background-color: white;
+  display: flex; }
+  .header .header__logo {
+    margin-left: 14.16667%;
+    padding: 55px 0 49px 0px; }
+  .header .header_nav {
+    display: inline-flex;
+    margin-left: 22.75%; }
+    .header .header_nav .header__nav__items:not(:last-child) {
+      padding: 49px; }
+    .header .header_nav .header__nav__items:last-child {
+      padding: 49px 49px 49px 0; }
+    .header .header_nav .header__nav__items .header_nav__items__links {
+      color: #3b3b3b;
+      font-family: Aleo;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.98px; }
 
 /*# sourceMappingURL=base.css.map */

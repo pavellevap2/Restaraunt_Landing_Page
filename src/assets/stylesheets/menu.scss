@@ -1,0 +1,32 @@
+@import "header";
+
+
+.menu{
+  .menu__b-title{
+    display: flex;
+    justify-content: center;
+    .menu__b-title__title{
+      margin-top: -14px;
+      padding: 25px ;
+      background: url("../images/shape-figure.png")center center no-repeat;
+      background-size: 100%;
+      @include text-prop(#ffffff,Aleo,20px,700,1px);
+      line-height: 60px;
+    }
+  }
+  .menu__b-flex{
+    display: flex;
+    flex-direction: row; /*Пункты внутри контейнера будут располагаться горизонтально*/
+    align-items: stretch; /*Пункты внутри контейнер будут принимать всю его высоту*/
+    justify-content: center;
+      .menu__b-flex__b-left{
+        margin-right: 14.16667%;
+      }
+      .menu__b-flex__b-right{
+        margin-left: 14.16667%;
+      }
+        .menu__b-flex__table_props{
+
+        }
+  }
+}
