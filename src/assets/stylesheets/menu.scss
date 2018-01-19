@@ -2,11 +2,13 @@
 
 
 .menu{
+  margin-bottom: $block;
   .menu__b-title{
     display: flex;
     justify-content: center;
+    padding-bottom: 60px;
     .menu__b-title__title{
-      margin-top: -14px;
+      margin-top: -15px;
       padding: 25px ;
       background: url("../images/shape-figure.png")center center no-repeat;
       background-size: 100%;
@@ -21,12 +23,56 @@
     justify-content: center;
       .menu__b-flex__b-left{
         margin-right: 14.16667%;
+        margin-left: 2.5%;
       }
       .menu__b-flex__b-right{
         margin-left: 14.16667%;
+        margin-right: 2.5%;
       }
         .menu__b-flex__table_props{
-
+            &:nth-child(1), &:nth-child(2), &:nth-child(3){
+            }
+          &:last-child{
+            padding-bottom: 34px;
+             margin-bottom: 90px;
+            }
+          .menu__b-flex__table_props__row{
+            @include text-prop(#555555,Aleo,16px,400,0.8px);
+            text-align: left;
+            .menu__b-flex__table_props__row__image{
+                margin-bottom: 1.0%;
+                padding: 0 40px;
+            }
+            .menu__b-flex__table_props__row__money{
+             @include text-prop(#555555,Aleo,16px,400,0.8px);
+              text-align: right!important;
+              float: right;
+            }
+          }
+          .menu__b-flex__table_props__undertext{
+            @include text-prop(#b7b7b7,"Aleo - Light Italic",12px,400,0.6px);
+            position: relative;
+            top:-12px;
+          }
         }
+    .first-hidden,
+    .second-hidden{
+      margin-top: 25px;
+      border-top:2px solid #b7b7b7 ;
+    }
+  }
+  .menu__toggle-btn{
+    margin-top: 80px;
+    @extend .menu__b-title;
+    padding: 0;
+    .menu__toggle-btn__btn-props{
+     @include text-prop(#b7b7b7, Aleo,14px,400,0.98px);
+      line-height: 20px;
+      padding: 10px 15px;
+      border: 1px solid #b7b7b7;
+        :nth-child(1){
+          padding: 0 6.5px;
+        }
+    }
   }
 }
