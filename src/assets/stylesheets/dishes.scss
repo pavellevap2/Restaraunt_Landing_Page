@@ -1,0 +1,37 @@
+@import "header";
+.dishes{
+  margin-left: 18%;
+  margin-bottom: 1*$margin;
+  margin-top: $margin;
+    .dishes__title{
+     position: relative;
+      right: -2.5%;
+      @include text-prop(#3b3b3b,Aleo,20px,700,1px);
+      text-transform: uppercase;
+    }
+  .dishes__carousel{
+    margin-top: 100px;
+    .dishes__carousel__gallery{
+      display: flex;
+      .dishes__carousel__gallery__list {
+        :not(:last-child){
+          margin-right:71px ;
+        }
+        .dishes__carousel__gallery__list__image{
+          width: 230px;
+        }
+        .dishes__carousel__gallery__list__text{
+          margin-top: 30px;
+          @include text-prop(#555555,Aleo,16px,300,0.8px);
+          .dishes__carousel__gallery__list__text__money{
+            float: right;
+          }
+        }
+        .dishes__carousel__gallery__list__stars{
+          position: relative;
+          top:-10px;
+        }
+      }
+    }
+  }
+}

@@ -20,14 +20,14 @@
     display: flex;
     flex-direction: row; /*Пункты внутри контейнера будут располагаться горизонтально*/
     align-items: stretch; /*Пункты внутри контейнер будут принимать всю его высоту*/
-    justify-content: center;
+    justify-content: space-around;
       .menu__b-flex__b-left{
-        margin-right: 14.16667%;
-        margin-left: 2.5%;
+        margin-right: $margin;
+        margin-left: 3%;
       }
       .menu__b-flex__b-right{
-        margin-left: 14.16667%;
-        margin-right: 2.5%;
+        margin-left: $margin;
+        margin-right: 3%;
       }
         .menu__b-flex__table_props{
             &:nth-child(1), &:nth-child(2), &:nth-child(3){

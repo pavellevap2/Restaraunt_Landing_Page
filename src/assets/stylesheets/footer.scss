@@ -1,0 +1,27 @@
+@import "header";
+footer{
+  min-width: 100%;
+  background-color: #3e3e3e;
+  .b-footer{
+     display: flex;
+     white-space: nowrap;
+    margin-left: 18.3%;
+    .b-footer__nav{
+      margin: 100px 0;
+      :not(:last-child){
+        margin-right: 60px;
+      }
+      .b-footer__nav__items{
+        padding-bottom: 11px;
+        padding-right: 40px;
+        @include text-prop(white,Aleo,16px,normal,0.4px);
+        font-style: italic;
+        line-height: 1.7;
+          &:first-child{
+            font-weight: bolder;
+        }
+      }
+    }
+   }
+
+}

@@ -1,29 +1,24 @@
 @import "header";
+
 .gallery{
-  margin-top: $block;
-  .gallery__header{
-    display: flex;
-    .gallery__header__title{
-      @include text-prop(#3b3b3b,Aleo,20px,700,1px);
+  margin-left: 21%;
+  margin-bottom: 1*$margin;
+  margin-top: $margin;
+    .gallery__title{
+      white-space: nowrap;
+      @include text-prop(#3b3b3b,Aleo,22px,700,1.1px);
       text-transform: uppercase;
-      width: 24%;
-      margin-right: 76%;
     }
-    ul {
-      display: inline-flex;
-      .gallery__header__btn-list{
-        margin-top: 50%;
-       .gallery__header__btn-list__btn{
-         border:none;
-         background-color: white;
-         height: 20px;
-       }
-      }
+    .gallery__flex-block{
+      margin-top:0.5*$margin ;
+      display: flex;
+      flex-direction: row; /*Пункты внутри контейнера будут располагаться горизонтально*/
+      align-items: stretch; /*Пункты внутри контейнер будут принимать всю его высоту*/
+        .gallery__half-image{
+          .gallery__half-image__second-image{
+           position: relative;
+            top:-5px;
+          }
+        }
     }
-  }
-  .gallery__carousel{
-    .gallery__carousel__gallery{
-      display: inline-flex;
-    }
-  }
 }
