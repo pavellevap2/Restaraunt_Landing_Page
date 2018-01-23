@@ -200,7 +200,7 @@
         letter-spacing: 0.98px; }
 
 .gallery {
-  margin-left: 21%;
+  margin-left: 16%;
   margin-bottom: 14.16667%;
   margin-top: 14.16667%; }
   .gallery .gallery__title {
@@ -250,7 +250,7 @@ footer {
   footer .b-footer {
     display: flex;
     white-space: nowrap;
-    margin-left: 18.3%; }
+    margin-left: 13.3%; }
     footer .b-footer .b-footer__nav {
       margin: 100px 0; }
       footer .b-footer .b-footer__nav :not(:last-child) {
@@ -291,7 +291,7 @@ footer {
         letter-spacing: 0.98px; }
 
 .dishes {
-  margin-left: 18%;
+  margin-left: 13%;
   margin-bottom: 14.16667%;
   margin-top: 14.16667%; }
   .dishes .dishes__title {
